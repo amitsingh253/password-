@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  min-height: 100vh;
+}
+
+.input {
+  @apply w-full text-black rounded-full px-5 py-1 my-1 outline-none;
+}
+
+.mobile {
+  @apply md:w-[700px] md:h-[80vh] md:py-5 md:px-10;
+}
